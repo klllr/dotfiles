@@ -1,0 +1,41 @@
+export EDITOR="nvim"
+
+alias eso="$EDITOR ~/.zshrc"
+alias so="exec zsh"
+
+# Retard alert
+alias v="$EDITOR"
+alias vi="$EDITOR"
+alias vim="$EDITOR"
+alias c="$EDITOR"
+alias ci="$EDITOR"
+alias cim="$EDITOR"
+alias ncim="$EDITOR"
+
+alias bybou="byobu"
+alias byoub="byobu"
+alias byb="byobu"
+
+alias pac="sudo pacman -S"
+alias pacy="sudo pacman -Syu"
+alias pa="sudo pacman"
+
+
+alias lso="/usr/bin/ls"
+alias ls="lsd -l"
+alias cp="cp -iv"
+alias mv="mv -iv"
+alias rm="rm -v"
+alias mkdir="mkdir -pv"
+alias md="mkdir"
+
+
+alias carwash="cargo-watch -x run"
+alias cartest="cargo-watch -x 'test -- --nocapture'"
+alias cartestsolo="cargo-watch -x 'test -- --test-threads 1 --nocapture'"
+
+
+function mcd () {
+	mkdir $1
+	cd $1
+}
